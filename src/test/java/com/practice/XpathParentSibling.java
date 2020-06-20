@@ -11,6 +11,8 @@ public class XpathParentSibling {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		
+		driver.get("");
 
 	}
 

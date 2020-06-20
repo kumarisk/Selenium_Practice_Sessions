@@ -21,6 +21,7 @@ public class MouseHoverAndClick {
 		
 		Thread.sleep(300);
 		action.moveToElement(driver.findElement(By.xpath("//li[@id=\"header-addons\"]"))).build().perform();
+	
 			
 		Thread.sleep(3000);
 		

@@ -27,6 +27,7 @@ public class FindElements_List {
 		for(int i=0; i<ListOfLinks.size(); i++) {
 			String LinkText = ListOfLinks.get(i).getText();
 			System.out.println(LinkText);
+		
 		}
 		
 
