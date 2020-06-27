@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="14" started-at="2020-06-20T10:01:30Z" finished-at="2020-06-20T10:01:30Z">
+  <suite name="Default suite" duration-ms="32018" started-at="2020-06-22T18:26:28Z" finished-at="2020-06-22T18:27:00Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="14" started-at="2020-06-20T10:01:30Z" finished-at="2020-06-20T10:01:30Z">
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    <test name="Default test" duration-ms="32018" started-at="2020-06-22T18:26:28Z" finished-at="2020-06-22T18:27:00Z">
+      <class name="com.devops.TimeSheet">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.devops.TimeSheet@37374a5e]" name="setup" is-config="true" duration-ms="13190" started-at="2020-06-22T18:26:28Z" finished-at="2020-06-22T18:26:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.devops.TimeSheet@37374a5e]" name="test" duration-ms="18782" started-at="2020-06-22T18:26:42Z" finished-at="2020-06-22T18:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.devops.TimeSheet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
